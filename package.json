@@ -1,6 +1,6 @@
 {
   "name": "wachdir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Watch dir, print full paths of files that change",
   "bin": {
     "wachdir": "wachdir"
