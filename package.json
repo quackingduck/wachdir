@@ -1,9 +1,13 @@
 {
   "name": "wachdir",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Watch dir, print full paths of files that change",
-  "bin": { "wachdir": "wachdir" },
-  "scripts": { "preinstall": "make" },
+  "bin": {
+    "wachdir": "wachdir"
+  },
+  "scripts": {
+    "preinstall": "make"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/quackingduck/wachdir"
@@ -13,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/quackingduck/wachdir/issues"
   },
-  "keywords": [ "watch", "filesystem", "fsevents" ]
+  "keywords": [
+    "watch",
+    "filesystem",
+    "fsevents"
+  ]
 }
