@@ -3,3 +3,6 @@ watchdir: watchdir.c
 		-Wall \
 		-framework CoreServices \
 		-o $@ $<
+
+clean:
+	rm watchdir
